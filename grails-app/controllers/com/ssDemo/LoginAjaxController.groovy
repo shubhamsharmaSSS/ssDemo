@@ -13,5 +13,7 @@ class LoginAjaxController {
         result.template = g.render(template: '/templates/userLogin')
         render result as JSON
         
+        
+        
     }
 }
