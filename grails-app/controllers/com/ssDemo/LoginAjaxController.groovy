@@ -12,5 +12,6 @@ class LoginAjaxController {
         Map result =[:]
         result.template = g.render(template: '/templates/userLogin')
         render result as JSON
+        
     }
 }
